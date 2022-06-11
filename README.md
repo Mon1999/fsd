@@ -1,13 +1,12 @@
-# Farma
+# Online Health Management
 
-![](https://github.com/yspolat/it529-farma/blob/master/media/farma_logo.png?raw=true)
 
 ### Overview
-Farma is an online pharmacy platform and the customers can easily buy their medicines on this web app with generated code by doctor. Local pharmacies can join this platform and offer their medicines to the customers. Medicines are easily delivered to customers location by courier.
+Online Health Management is an online pharmacy platform and the customers can easily buy their medicines on this web app with generated code by doctor. Local pharmacies can join this platform and offer their medicines to the customers. Medicines are easily delivered to customers location by courier.
 
 ### Features
 
-- Farma is offering an user-friendly web application, even elderly people can use this application to order their medicines without asking help from someone else.
+- Online Health Management is offering an user-friendly web application, even elderly people can use this application to order their medicines without asking help from someone else.
 
 - Our system design is not complex, we choose a solid database like PostgreSQL and keep as simple as the table design and relations. Spring Boot is a viable option for back-end and Bootstrap is viable for front-end.
 
@@ -20,7 +19,7 @@ Farma is an online pharmacy platform and the customers can easily buy their medi
 - Compatible with all major browsers (IE10+, Edge, Chrome, Firefox ) and devices(Android and iOS) thanks to Bootstrap.
 
 **Table of Contents**
-+ [Farma](#the-project-farma)
++ [Online Health Management](#the-project-Online Health Management)
     + [Overview](#overview)
     + [Features](#features)
     + [Use Case](#use-case)    
@@ -42,7 +41,7 @@ Farma is an online pharmacy platform and the customers can easily buy their medi
 
 For technical point of view and platform decision, we did very deep research to determine proper technologies. Agile model and Aspect Oriented Programming are used and they could cut concerns like logging and security and enable cohesive development. It is a model is an iterative way to deal with arranging and directing project process. The reasons for using the Agile methodology are to complete our tasks as the segments are completed in the project. This continuous release program enabled us to show that our tasks are successful and if not, we need to accelerate, and if there is an error situation in the tasks, we focus on the this. Actually, we are not solving a problem, but we are trying to create a platform like Delivery Hero. Anyway, Agile helped reduce the possibility of large-scale failure, because there is continuous improvement throughout the project life cycle. This model encourages to start to project requirements, analysis, design, coding, testing and maintenance.
 
-![](https://github.com/yspolat/it529-farma/blob/master/media/conceptual_design.png?raw=true)
+![](https://github.com/yspolat/it529-Online Health Management/blob/master/media/conceptual_design.png?raw=true)
 
 We tried to follow best practices and wanted to keep our design simple and lean in every aspect of UI, system and database. Furhermore, we would like to use fancy technologies like Bootstrap, Spring Boot and Vue.js
 
@@ -84,7 +83,7 @@ We tried to follow best practices and wanted to keep our design simple and lean 
 Following is ER diagram on our DB (PostgreSQL), and there are 13 entities in our schema (Farm) and there are relations Many to Many and One to Many and we aimed to keep design simple and understandable. Design can be scale according to new requirements. PostgreSQL is our decision for Relational Database. REST API and Spring JPA, Data currently consume Database for CRUD operations.
 
 *ER Diagram* 
-![](https://github.com/yspolat/it529-farma/blob/master/media/er_diagram.png?raw=true)
+![](https://github.com/yspolat/it529-Online Health Management/blob/master/media/er_diagram.png?raw=true)
 
 ### Development
 There are two modules in main project. With our IDE - Intellij IDEA, those modules separated from each other. Our goal is to have a clear project structure. Both modules have Maven pom.xml and main folder also has own pom.xml as well.
@@ -120,8 +119,8 @@ We are willing to follow Continuous Integration / Continuous Development best pr
 
 *Marketplace*
 
-![](https://github.com/yspolat/it529-farma/blob/master/media/marketplace.png?raw=true)
+![](https://github.com/yspolat/it529-Online Health Management/blob/master/media/marketplace.png?raw=true)
 
 *Presentation*
 
-![](https://github.com/yspolat/it529-farma/blob/master/media/presentation.png?raw=true)
+![](https://github.com/yspolat/it529-Online Health Management/blob/master/media/presentation.png?raw=true)
